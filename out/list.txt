@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 03 Apr 2024 18:31:27 +0000
+! Last modified: Wed, 03 Apr 2024 18:52:58 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
