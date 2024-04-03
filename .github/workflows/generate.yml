@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  generateList:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Git
+      run: |
+        git config user.email "<>"
+        git config user.name "Actions CI Bot"
+
+    - name: Make
+      run: |
+        make
+
+    - name: Push changes
+      run: |
+        git add out/list.txt
+        git commit -m "refresh list"
+        git push origin
