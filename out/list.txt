@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 03 Apr 2024 22:37:26 +0000
+! Last modified: Mon, 08 Apr 2024 12:40:10 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
@@ -44,7 +44,7 @@ fandom.com##.page__right-rail
 ! remove recents
 reddit.com##reddit-recent-pages
 ! remove legal
-reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.xs\:pt-md.pt-xs.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav
+reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav
 
 ! twitch
 ! block prime notifications
