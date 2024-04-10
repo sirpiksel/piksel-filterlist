@@ -2,6 +2,7 @@
 ! block video recommendations
 youtube.com###primary.ytd-watch-grid
 youtube.com###secondary:style(width: var(--ytd-watch-flexy-max-player-width-wide-screen) !important;)
+youtube.com##+js(set-cookie, wide, 1)
 ! block endscreen
 youtube.com##.ytp-endscreen-content
 ! block comments
