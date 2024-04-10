@@ -1,12 +1,11 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 10 Apr 2024 11:55:11 +0000
+! Last modified: Wed, 10 Apr 2024 12:16:50 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
 ! block video recommendations
-youtube.com###primary:style(flex: unset !important; min-width: 0 !important;)
-youtube.com###primary-inner
+youtube.com###primary.ytd-watch-grid
 youtube.com###secondary:style(width: var(--ytd-watch-flexy-max-player-width-wide-screen) !important;)
 ! block endscreen
 youtube.com##.ytp-endscreen-content
@@ -14,6 +13,9 @@ youtube.com##.ytp-endscreen-content
 youtube.com###comments
 ! block chat
 youtube.com###chat-container
+! block youtube shopping
+youtube.com##.ytp-suggested-action
+youtube.com##ytd-merch-shelf-renderer
 ! cleanup subscribtions
 youtube.com###newness-dot
 youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
