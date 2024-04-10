@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 10 Apr 2024 15:14:45 +0000
+! Last modified: Wed, 10 Apr 2024 20:34:10 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
@@ -52,7 +52,16 @@ reddit.com##reddit-recent-pages
 reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav
 
 ! twitch
-! block prime notifications
-twitch.tv##.prime-offers
-! block bits
-twitch.tv##.kBEymU.Layout-sc-1xcs6mc-0
+! cleanup topnav
+twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
+twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(5)
+twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
+! block sidenav
+twitch.tv##.side-nav
+! cleanup chat
+twitch.tv##.chat-room__content > div:first-child
+twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
+! cleanup player
+twitch.tv##.extensions-dock__layout
+twitch.tv##.theatre-social-panel
+twitch.tv##[data-a-target="player-clip-button"]
