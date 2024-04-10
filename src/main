@@ -1,15 +1,17 @@
 ! youtube
-! block notification dot
-youtube.com###newness-dot
-! block youtube shopping
-youtube.com##.ytp-suggested-action-badge
-! block shorts
-youtube.com##.ytd-item-section-renderer.style-scope > .ytd-reel-shelf-renderer.style-scope
+! block video recommendations
+youtube.com###primary:style(flex: unset !important; min-width: 0 !important;)
+youtube.com###primary-inner
+youtube.com###secondary:style(width: var(--ytd-watch-flexy-max-player-width-wide-screen) !important;)
+! block endscreen
+youtube.com##.ytp-endscreen-content
+! block comments
+youtube.com###comments
 ! block chat
 youtube.com###chat-container
-youtube.com###panels-full-bleed-container
-youtube.com###secondary
-youtube.com###columns:style(padding: 0 !important)
+! cleanup subscribtions
+youtube.com###newness-dot
+youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
 
 ! oracle oci
 ! block upgrade banner
@@ -29,7 +31,7 @@ lieferando.de##._2JFg2._4R7G3.wYecl._2WqG_._908LZ
 
 ! motorsport.com
 ! make pictures usable
-motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important)
+motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
 
 ! fandom.com
 ! right panel obstructs view
