@@ -27,6 +27,10 @@ cloud.oracle.com##.inner-focus-dark.action.oci-banner
 ! block instagram comments
 instagram.com##.xh8yej3.x10l6tqk.x1swvt13.x1l90r2v.x1pi30zi.xexx8yu.x5yr21d.xdt5ytf.x78zum5.x9f619
 instagram.com##._a9za._a9z6
+! block explore
+instagram.com##div.x1iyjqo2.xh8yej3 > div:nth-child(3)
+! block reels
+instagram.com##div.x1iyjqo2.xh8yej3 > div:nth-child(4)
 ! block threads
 instagram.com##.xdy9tzy
 
