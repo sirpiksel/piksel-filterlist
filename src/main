@@ -5,6 +5,7 @@ youtube.com##+js(set-cookie, wide, 1)
 ! block endscreen
 youtube.com##.ytp-endscreen-content
 ! cleanup video
+youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
 youtube.com###comments
 youtube.com###chat-container
 youtube.com###panels-full-bleed-container
