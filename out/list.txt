@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 24 Apr 2024 21:35:03 +0000
+! Last modified: Wed, 24 Apr 2024 23:30:51 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
@@ -10,6 +10,7 @@ youtube.com##+js(set-cookie, wide, 1)
 ! block endscreen
 youtube.com##.ytp-endscreen-content
 ! cleanup video
+youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
 youtube.com###comments
 youtube.com###chat-container
 youtube.com###panels-full-bleed-container
