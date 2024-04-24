@@ -6,7 +6,7 @@ on:
       - 'src/main'
 
 jobs:
-  generateList:
+  generateFilter:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,6 +24,7 @@ jobs:
 
     - name: Push changes
       run: |
+        LAST_MSG="$(git log --oneline -1 | cut -d' ' -f2-)"
         git add out/list.txt
-        git commit -m "refresh list"
+        git commit -m "release filterlist after: \"${LAST_MSG}\""
         git push origin
