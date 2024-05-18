@@ -63,3 +63,5 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 twitch.tv##.extensions-dock__layout
 twitch.tv##.theatre-social-panel
 twitch.tv##[data-a-target="player-clip-button"]
+! block prime ads
+ext-twitch.tv##div.prime-extension-root
