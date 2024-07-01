@@ -46,8 +46,6 @@ fandom.com##.page__right-rail
 ! reddit.com
 ! remove recents
 reddit.com##reddit-recent-pages
-! remove legal
-reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav
 
 ! twitch
 ! cleanup topnav
