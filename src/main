@@ -65,3 +65,7 @@ twitch.tv##[data-a-target="player-clip-button"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
+
+! wikipedia
+! force darkmode
+en.wikipedia.org##+js(set-cookie, enwikimwclientpreferences, skin-theme-clientpref-night)
