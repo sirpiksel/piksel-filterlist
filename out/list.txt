@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Mon, 01 Jul 2024 23:16:07 +0000
+! Last modified: Fri, 02 Aug 2024 09:18:01 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
@@ -70,3 +70,7 @@ twitch.tv##[data-a-target="player-clip-button"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
+
+! wikipedia
+! force darkmode
+en.wikipedia.org##+js(set-cookie, enwikimwclientpreferences, skin-theme-clientpref-night)
