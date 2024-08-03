@@ -69,4 +69,4 @@ ext-twitch.tv##div.prime-extension-root
 
 ! wikipedia
 ! force darkmode
-en.wikipedia.org##+js(set-cookie, enwikimwclientpreferences, skin-theme-clientpref-night)
+en.wikipedia.org##+js(set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os)
