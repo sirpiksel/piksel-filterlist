@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Fri, 02 Aug 2024 09:18:01 +0000
+! Last modified: Sat, 03 Aug 2024 20:54:14 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
@@ -67,6 +67,7 @@ twitch.tv##.extensions-dock__layout
 twitch.tv##.theatre-social-panel
 twitch.tv##[data-a-target="player-clip-button"]
 ! block player overlays
+twitch.tv##div[aria-label="Chat Happening Now Overlay"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
