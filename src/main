@@ -62,6 +62,7 @@ twitch.tv##.extensions-dock__layout
 twitch.tv##.theatre-social-panel
 twitch.tv##[data-a-target="player-clip-button"]
 ! block player overlays
+twitch.tv##div[aria-label="Chat Happening Now Overlay"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
