@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Sat, 03 Aug 2024 21:02:46 +0000
+! Last modified: Sun, 18 Aug 2024 12:36:53 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! youtube
@@ -71,7 +71,3 @@ twitch.tv##div[aria-label="Chat Happening Now Overlay"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
-
-! wikipedia
-! force darkmode
-en.wikipedia.org##+js(set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os)
