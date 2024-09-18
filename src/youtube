@@ -1,7 +1,7 @@
 ! youtube
 ! block video recommendations
 youtube.com###secondary
-youtube.com##+js(set-cookie, wide, 1)
+youtube.com##+js(trusted-set-cookie, wide, 1)
 ! block endscreen
 youtube.com##.ytp-endscreen-content
 ! cleanup video
