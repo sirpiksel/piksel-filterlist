@@ -1,0 +1,19 @@
+! twitch
+! cleanup topnav
+twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
+twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(5)
+twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
+! block sidenav
+twitch.tv##.side-nav
+! cleanup chat
+twitch.tv##.chat-room__content > div:first-child
+twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
+! cleanup player
+twitch.tv##.extensions-dock__layout
+twitch.tv##.theatre-social-panel
+twitch.tv##[data-a-target="player-clip-button"]
+! block player overlays
+twitch.tv##div[aria-label="Chat Happening Now Overlay"]
+ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
+! block prime ads
+ext-twitch.tv##div.prime-extension-root

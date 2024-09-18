@@ -1,0 +1,3 @@
+! motorsport
+! make pictures usable
+motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
