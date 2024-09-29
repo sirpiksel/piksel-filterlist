@@ -1,0 +1,3 @@
+! minecraft wiki
+! enable darkmode
+minecraft.wiki##+js(trusted-set-cookie, theme, dark, , /, reload, 1)
