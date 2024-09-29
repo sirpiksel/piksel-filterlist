@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Fri, 27 Sep 2024 14:18:39 +0000
+! Last modified: Sun, 29 Sep 2024 15:42:29 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -18,6 +18,9 @@ instagram.com##div.x1azxncr
 ! block job ads
 lieferando.de##li._1jyes._1QGZS._2FLWn._34qjJ:nth-of-type(8)
 lieferando.de##._2JFg2._4R7G3.wYecl._2WqG_._908LZ
+! minecraft wiki
+! enable darkmode
+minecraft.wiki##+js(trusted-set-cookie, theme, dark, , /, reload, 1)
 ! motorsport
 ! make pictures usable
 motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
