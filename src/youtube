@@ -8,6 +8,7 @@ youtube.com##.ytp-endscreen-content
 youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
 youtube.com###comments
 youtube.com###chat-container
+youtube.com###teaser-carousel
 youtube.com###panels-full-bleed-container
 youtube.com###columns:style(padding: unset !important;)
 ! block youtube shopping
