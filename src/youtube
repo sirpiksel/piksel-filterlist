@@ -17,3 +17,6 @@ youtube.com##ytd-merch-shelf-renderer
 ! cleanup subscribtions
 youtube.com###newness-dot
 youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
+! remove channel trailer
+youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
+youtube.com##ytd-channel-video-player-renderer
