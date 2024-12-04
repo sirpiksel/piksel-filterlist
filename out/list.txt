@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Sat, 19 Oct 2024 18:55:47 +0000
+! Last modified: Wed, 04 Dec 2024 14:33:13 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -73,3 +73,6 @@ youtube.com##ytd-merch-shelf-renderer
 ! cleanup subscribtions
 youtube.com###newness-dot
 youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
+! remove channel trailer
+youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
+youtube.com##ytd-channel-video-player-renderer
