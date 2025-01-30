@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 04 Dec 2024 14:33:13 +0000
+! Last modified: Thu, 30 Jan 2025 20:10:27 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -28,8 +28,13 @@ motorsport.com##section[data-widget="compare-images"] > *:style(animation: none 
 ! block upgrade banner
 cloud.oracle.com##.inner-focus-dark.action.oci-banner
 ! reddit.com
-! remove recents
-reddit.com##reddit-recent-pages
+! remove left-nav bloat
+reddit.com##left-nav-recent-communities
+reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
+reddit.com##nav[aria-label="Reddit resources"]
+! remove separators
+reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
+reddit.com###left-sidebar > nav > hr:nth-last-of-type(2)
 ! twitch
 ! cleanup topnav
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
