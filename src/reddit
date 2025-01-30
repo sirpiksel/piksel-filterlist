@@ -1,3 +1,8 @@
 ! reddit.com
-! remove recents
-reddit.com##reddit-recent-pages
+! remove left-nav bloat
+reddit.com##left-nav-recent-communities
+reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
+reddit.com##nav[aria-label="Reddit resources"]
+! remove separators
+reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
+reddit.com###left-sidebar > nav > hr:nth-last-of-type(2)
