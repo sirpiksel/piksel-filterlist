@@ -1,5 +1,6 @@
 ! reddit.com
 ! remove left-nav bloat
+reddit.com##reddit-recent-pages
 reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
 reddit.com##nav[aria-label="Reddit resources"]
