@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Thu, 30 Jan 2025 20:10:27 +0000
+! Last modified: Sat, 01 Feb 2025 16:24:24 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -29,6 +29,7 @@ motorsport.com##section[data-widget="compare-images"] > *:style(animation: none 
 cloud.oracle.com##.inner-focus-dark.action.oci-banner
 ! reddit.com
 ! remove left-nav bloat
+reddit.com##reddit-recent-pages
 reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
 reddit.com##nav[aria-label="Reddit resources"]
