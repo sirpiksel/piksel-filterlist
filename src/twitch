@@ -11,7 +11,7 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 ! cleanup player
 twitch.tv##.extensions-dock__layout
 twitch.tv##.theatre-social-panel
-twitch.tv##[data-a-target="player-clip-button"]
+twitch.tv##button[aria-label^="Clip"]
 ! block twitch stories
 twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
 ! block player overlays
