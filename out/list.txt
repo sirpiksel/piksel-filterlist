@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Sun, 02 Mar 2025 16:35:14 +0000
+! Last modified: Mon, 24 Mar 2025 16:57:58 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -61,25 +61,25 @@ ext-twitch.tv##div.prime-extension-root
 ! wikipedia
 ! set appearance
 wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
-! ! youtube
-! ! block video recommendations
-! youtube.com###secondary
-! youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
-! ! block endscreen
-! youtube.com##.ytp-endscreen-content
-! ! cleanup video
-! youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
-! youtube.com###comments
-! youtube.com###chat-container
-! youtube.com###teaser-carousel
-! youtube.com###panels-full-bleed-container
-! youtube.com###columns:style(padding: unset !important;)
-! ! block youtube shopping
-! youtube.com##.ytp-suggested-action
-! youtube.com##ytd-merch-shelf-renderer
-! ! cleanup subscribtions
-! youtube.com###newness-dot
-! youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
-! ! remove channel trailer
-! youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
-! youtube.com##ytd-channel-video-player-renderer
+! youtube
+! block video recommendations
+youtube.com###secondary
+youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
+! block endscreen
+youtube.com##.ytp-endscreen-content
+! cleanup video
+youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
+youtube.com###comments
+youtube.com###chat-container
+youtube.com###teaser-carousel
+youtube.com###panels-full-bleed-container
+youtube.com###columns:style(padding: unset !important;)
+! block youtube shopping
+youtube.com##.ytp-suggested-action
+youtube.com##ytd-merch-shelf-renderer
+! cleanup subscribtions
+youtube.com###newness-dot
+youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
+! remove channel trailer
+youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
+youtube.com##ytd-channel-video-player-renderer
