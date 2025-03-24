@@ -1,22 +1,22 @@
-! ! youtube
-! ! block video recommendations
-! youtube.com###secondary
-! youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
-! ! block endscreen
-! youtube.com##.ytp-endscreen-content
-! ! cleanup video
-! youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
-! youtube.com###comments
-! youtube.com###chat-container
-! youtube.com###teaser-carousel
-! youtube.com###panels-full-bleed-container
-! youtube.com###columns:style(padding: unset !important;)
-! ! block youtube shopping
-! youtube.com##.ytp-suggested-action
-! youtube.com##ytd-merch-shelf-renderer
-! ! cleanup subscribtions
-! youtube.com###newness-dot
-! youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
-! ! remove channel trailer
-! youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
-! youtube.com##ytd-channel-video-player-renderer
+! youtube
+! block video recommendations
+youtube.com###secondary
+youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
+! block endscreen
+youtube.com##.ytp-endscreen-content
+! cleanup video
+youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
+youtube.com###comments
+youtube.com###chat-container
+youtube.com###teaser-carousel
+youtube.com###panels-full-bleed-container
+youtube.com###columns:style(padding: unset !important;)
+! block youtube shopping
+youtube.com##.ytp-suggested-action
+youtube.com##ytd-merch-shelf-renderer
+! cleanup subscribtions
+youtube.com###newness-dot
+youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
+! remove channel trailer
+youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
+youtube.com##ytd-channel-video-player-renderer
