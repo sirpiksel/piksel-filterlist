@@ -20,3 +20,5 @@ ext-twitch.tv##div[class^="ErrorItem_error__"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
+! block legal banner
+www.twitch.tv##.jWeQYG.Layout-sc-1xcs6mc-0
