@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Mon, 31 Mar 2025 21:56:49 +0000
+! Last modified: Tue, 01 Apr 2025 12:30:28 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -75,7 +75,9 @@ ext-twitch.tv##div.prime-extension-root
 www.twitch.tv##.jWeQYG.Layout-sc-1xcs6mc-0
 ! wikipedia
 ! set appearance
-wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
+
+en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
+de.wikipedia.org##+js(trusted-set-cookie, dewikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
 ! youtube
 ! block video recommendations
 youtube.com###secondary
