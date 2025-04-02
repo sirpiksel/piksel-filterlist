@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Tue, 01 Apr 2025 12:30:28 +0000
+! Last modified: Wed, 02 Apr 2025 14:09:40 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -49,6 +49,10 @@ reddit.com##nav[aria-label="Reddit resources"]
 ! remove separators
 reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
 reddit.com###left-sidebar > nav > hr:nth-last-of-type(2)
+! remove navigation Ad-Button
+reddit.com##span[data-part="advertise"]
+! remove navigation r/Field-Button
+reddit.com##span[data-part="a1"]
 ! twitch
 ! cleanup topnav
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
