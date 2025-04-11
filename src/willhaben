@@ -1,0 +1,4 @@
+! willhaben
+
+! render website on whole screen
+willhaben.at##.htvoLC:matches-media(screen and (min-width: 970px), print):style( grid-template-columns: minmax(0px, 100%) minmax(1px, 1fr) !important;)
