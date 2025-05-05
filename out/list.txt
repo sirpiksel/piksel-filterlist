@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Fri, 11 Apr 2025 11:59:27 +0000
+! Last modified: Mon, 05 May 2025 00:17:09 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! fandom.com
@@ -39,7 +39,7 @@ minecraft.wiki##+js(trusted-set-cookie, theme, dark, , /, reload, 1)
 motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
 ! oracle oci
 ! block upgrade banner
-cloud.oracle.com##.inner-focus-dark.action.oci-banner
+cloud.oracle.com###redwood-banner
 ! reddit.com
 ! remove left-nav bloat
 reddit.com##reddit-recent-pages
