@@ -1,8 +1,12 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 14 May 2025 19:08:27 +0000
+! Last modified: Sat, 24 May 2025 00:18:38 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
+! archwiki
+! set appearance
+
+wiki.archlinux.org##+js(trusted-set-cookie, archwikimwclientpreferences, skin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-custom-font-size-clientpref-0, , /, reload, 1)
 ! fandom.com
 ! right panel obstructs view
 fandom.com##.page__right-rail
