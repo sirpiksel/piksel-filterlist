@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Wed, 04 Jun 2025 21:09:51 +0000
+! Last modified: Thu, 05 Jun 2025 13:00:11 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -19,8 +19,8 @@ www.idealo.de##.sr-tooltip__desktop_X77_5
 instagram.com##.xh8yej3.x10l6tqk.xf7dkkf.x1l90r2v.xv54qhq.xexx8yu.x5yr21d.xdt5ytf.x78zum5.x9f619
 
 ! cleanup sidebar
-instagram.com##.xh8yej3.x1iyjqo2 > div:nth-of-type(3)
-instagram.com##.xh8yej3.x1iyjqo2 > div:nth-of-type(4)
+instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(3)
+instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(4)
 instagram.com##.x1azxncr
 ! jsfiddle
 ! remove sidebar
