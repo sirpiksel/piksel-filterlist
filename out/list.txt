@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Tue, 10 Jun 2025 15:27:15 +0000
+! Last modified: Tue, 10 Jun 2025 15:29:55 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -82,8 +82,6 @@ ext-twitch.tv##div[class^="ErrorItem_error__"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
-! remove legal banner
-twitch.tv##.jWeQYG.Layout-sc-1xcs6mc-0
 ! block twitch stories
 twitch.tv##.dKitkM.Layout-sc-1xcs6mc-0
 ! wikipedia
