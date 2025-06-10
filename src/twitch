@@ -23,4 +23,6 @@ ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
 ! remove legal banner
-www.twitch.tv##.jWeQYG.Layout-sc-1xcs6mc-0
+twitch.tv##.jWeQYG.Layout-sc-1xcs6mc-0
+! block twitch stories
+twitch.tv##.dKitkM.Layout-sc-1xcs6mc-0
