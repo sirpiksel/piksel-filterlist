@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 7 days
-! Last modified: Tue, 17 Jun 2025 08:50:08 +0000
+! Last modified: Wed, 25 Jun 2025 09:05:49 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -70,12 +70,14 @@ twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
 ! block sidenav
 twitch.tv##.side-nav
 ! cleanup chat
-twitch.tv##.chat-room__content > div:first-child
 twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 ! cleanup player
-twitch.tv##.extensions-dock__layout
+! block clip button
+twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
+! block top subscription panel
 twitch.tv##.theatre-social-panel
-twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
+!twitch.tv##.extensions-dock__layout
+!twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
 ! block twitch stories
 twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
 ! block player overlays
