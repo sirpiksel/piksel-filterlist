@@ -12,7 +12,8 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
 ! block top subscription panel
 twitch.tv##.theatre-social-panel
-!twitch.tv##.extensions-dock__layout
+! block prime benefits
+twitch.tv##.extensions-dock__layout
 !twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
 ! block twitch stories
 twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
