@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
-! Expires: 7 days
-! Last modified: Sun, 06 Jul 2025 08:14:42 +0000
+! Expires: 14 days
+! Last modified: Thu, 10 Jul 2025 20:33:38 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -75,7 +75,8 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
 ! block top subscription panel
 twitch.tv##.theatre-social-panel
-!twitch.tv##.extensions-dock__layout
+! block prime benefits
+twitch.tv##.extensions-dock__layout
 !twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
 ! block twitch stories
 twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
