@@ -4,11 +4,11 @@ instagram.com##.xh8yej3.x10l6tqk.xf7dkkf.x1l90r2v.xv54qhq.xexx8yu.x5yr21d.xdt5yt
 instagram.com##._a9za._a9z6
 
 ! cleanup sidebar
-! remove explore
+!! remove explore
 instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(3)
-! remove reels
+!! remove reels
 instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(4)
-! remove Meta Ad
+!! remove Meta Ad
 instagram.com##span[aria-describedby="_r_2i_"]
 instagram.com##span[aria-describedby="_r_3l_"]
 instagram.com##span[aria-describedby="_r_2c_"]

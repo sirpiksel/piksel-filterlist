@@ -8,16 +8,16 @@ twitch.tv##.side-nav
 ! cleanup chat
 twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 ! cleanup player
-! block clip button
+!! block clip button
 twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
-! block top subscription panel
+!! block top subscription panel
 twitch.tv##.theatre-social-panel
-! block prime benefits
+!! block prime benefits
 twitch.tv##.extensions-dock__layout
 !twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
-! block twitch stories
+!! block twitch stories
 twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
-! block player overlays
+!! block player overlays
 twitch.tv##div[aria-label="Chat Happening Now Overlay"]
 twitch.tv##div.extensions-video-overlay-size-container
 twitch.tv##div.Layout-sc-1xcs6mc-0.iZiJYe
