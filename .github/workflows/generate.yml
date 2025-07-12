@@ -1,4 +1,4 @@
-name: CI
+name: CI Format & Release
 
 on:
   push:
@@ -16,15 +16,54 @@ jobs:
     - name: Set up Git
       run: |
         git config user.email "<>"
-        git config user.name "Actions CI Bot"
+        printf "$(git log --oneline -1 | cut -d' ' -f2-)" > CHANGE
+
+    - name: Format
+      run: |
+        git config user.name "Formatting CI Bot"
+        for f in src/*; do
+          [ -f "$f" ] || continue
+
+          # --- Step 0: create tmp file
+          mv "$f" "$f".tmp
+
+          # --- Step 1: remove blank lines
+          sed -i '/^$/d' "$f".tmp
+
+          # --- Step 2: remove leading whitespace
+          sed -i 's/^[[:space:]]*//g' "$f".tmp
+
+          # --- Step 3: remove trailing whitespace
+          sed -i 's/[[:space:]]*$//g' "$f".tmp
+
+          # --- Step 4: insert a blank line before any "! " line from line 3 onward
+          awk '
+            NR >= 3 && /^! / {
+              print ""
+            }
+            { print }
+          ' "$f".tmp > "$f"
+
+          # --- Step 5: delete tmp file
+          rm -f "$f".tmp
+
+          # --- Step 6: add to git
+          git add "$f"
+
+          # --- Step 7: add spacing
+          printf '\n\n' >> "$f"
+        done
+        git commit -m "format filters"
 
     - name: Make
       run: |
-        make
+        printf "! Title: piksels filterlist\n! Expires: 14 days\n! Last modified: $(date -R)\n! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE\n\n" > out/list.txt
+        cat src/* >> out/list.txt
+        sed -i 's/^[ \t]*//;s/[ \t]*$//' out/list.txt
+        git config user.name "Release CI Bot"
+        git add out/list.txt
+        git commit -m "release filterlist after: \"$(cat CHANGE)\""
 
     - name: Push changes
       run: |
-        LAST_MSG="$(git log --oneline -1 | cut -d' ' -f2-)"
-        git add out/list.txt
-        git commit -m "release filterlist after: \"${LAST_MSG}\""
         git push origin
