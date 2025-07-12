@@ -1,5 +1,4 @@
 ! wikipedia
 ! set appearance
-
 en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
 de.wikipedia.org##+js(trusted-set-cookie, dewikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)

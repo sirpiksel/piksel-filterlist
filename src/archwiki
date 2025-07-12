@@ -1,4 +1,3 @@
 ! archwiki
 ! set appearance
-
 wiki.archlinux.org##+js(trusted-set-cookie, archwikimwclientpreferences, skin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-custom-font-size-clientpref-0, , /, reload, 1)

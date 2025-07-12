@@ -2,8 +2,10 @@
 ! remove sidebar
 jsfiddle.net###layout-container:style(grid-template-columns: 0 1fr !important;)
 jsfiddle.net###sidebar
+
 ! remove fiddle visibility Button
 jsfiddle.net###fiddle-info > ul > li.disabled:nth-child(2)
+
 ! remove ProButton
 jsfiddle.net###actions > li.proButton
 jsfiddle.net###actions > li.divider:nth-child(11)

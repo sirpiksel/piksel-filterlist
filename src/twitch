@@ -3,10 +3,13 @@
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(5)
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
+
 ! block sidenav
 twitch.tv##.side-nav
+
 ! cleanup chat
 twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
+
 ! cleanup player
 !! block clip button
 twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
@@ -23,7 +26,9 @@ twitch.tv##div.extensions-video-overlay-size-container
 twitch.tv##div.Layout-sc-1xcs6mc-0.iZiJYe
 ext-twitch.tv##div[class^="ErrorItem_error__"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
+
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
+
 ! block twitch stories
 twitch.tv##.dKitkM.Layout-sc-1xcs6mc-0
