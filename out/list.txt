@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Fri, 11 Jul 2025 22:50:38 +0000
+! Last modified: Sat, 12 Jul 2025 12:03:13 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -28,6 +28,7 @@ instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(4)
 instagram.com##span[aria-describedby="_r_2i_"]
 instagram.com##span[aria-describedby="_r_3l_"]
 instagram.com##span[aria-describedby="_r_2c_"]
+instagram.com##span[aria-describedby="_r_1q_"]
 instagram.com##span[aria-describedby="_R_fmt5bb9klrj5ipd5aq_"]
 
 ! block chat bubble
