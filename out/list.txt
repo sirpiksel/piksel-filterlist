@@ -1,30 +1,35 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sat, 12 Jul 2025 12:03:13 +0000
+! Last modified: Sat, 12 Jul 2025 14:03:37 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
 ! set appearance
-
 wiki.archlinux.org##+js(trusted-set-cookie, archwikimwclientpreferences, skin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-custom-font-size-clientpref-0, , /, reload, 1)
+
+
 ! fandom.com
 ! right panel obstructs view
 fandom.com##.page__right-rail
+
+
 ! idealo
 ! remove idealo tooltip
 www.idealo.de##.sr-tooltip__desktop
 www.idealo.de##.sr-tooltip__desktop_X77_5
+
+
 ! instagram
 ! block instagram comments
 instagram.com##.xh8yej3.x10l6tqk.xf7dkkf.x1l90r2v.xv54qhq.xexx8yu.x5yr21d.xdt5ytf.x78zum5.x9f619
 instagram.com##._a9za._a9z6
 
 ! cleanup sidebar
-! remove explore
+!! remove explore
 instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(3)
-! remove reels
+!! remove reels
 instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(4)
-! remove Meta Ad
+!! remove Meta Ad
 instagram.com##span[aria-describedby="_r_2i_"]
 instagram.com##span[aria-describedby="_r_3l_"]
 instagram.com##span[aria-describedby="_r_2c_"]
@@ -33,86 +38,116 @@ instagram.com##span[aria-describedby="_R_fmt5bb9klrj5ipd5aq_"]
 
 ! block chat bubble
 instagram.com##.xixxii4.x145d82y.x3h4tne
+
+
 ! jsfiddle
 ! remove sidebar
 jsfiddle.net###layout-container:style(grid-template-columns: 0 1fr !important;)
 jsfiddle.net###sidebar
+
 ! remove fiddle visibility Button
 jsfiddle.net###fiddle-info > ul > li.disabled:nth-child(2)
+
 ! remove ProButton
 jsfiddle.net###actions > li.proButton
 jsfiddle.net###actions > li.divider:nth-child(11)
+
+
 ! lieferando
 ! block job ads
 lieferando.de##li._1jyes._1QGZS._2FLWn._34qjJ:nth-of-type(8)
 lieferando.de##._2JFg2._4R7G3.wYecl._2WqG_._908LZ
+
+
 ! minecraft wiki
 ! enable darkmode
 minecraft.wiki##+js(trusted-set-cookie, theme, dark, , /, reload, 1)
+
+
 ! motorsport
 ! make pictures usable
 motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
+
+
 ! oracle oci
 ! block upgrade banner
 cloud.oracle.com###redwood-banner
+
+
 ! reddit.com
 ! remove left-nav bloat
 reddit.com##reddit-recent-pages
 reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
 reddit.com##nav[aria-label="Reddit resources"]
+
 ! remove separators
 reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
 reddit.com###left-sidebar > nav > hr:nth-last-of-type(2)
+
 ! remove navigation Ad-Button
 reddit.com##span[data-part="advertise"]
+
 ! remove navigation r/Field-Button
 reddit.com##span[data-part="a1"]
+
+
 ! twitch
 ! cleanup topnav
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(5)
 twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
+
 ! block sidenav
 twitch.tv##.side-nav
+
 ! cleanup chat
 twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
+
 ! cleanup player
-! block clip button
+!! block clip button
 twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
-! block top subscription panel
+!! block top subscription panel
 twitch.tv##.theatre-social-panel
-! block prime benefits
+!! block prime benefits
 twitch.tv##.extensions-dock__layout
 !twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
-! block twitch stories
+!! block twitch stories
 twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
-! block player overlays
+!! block player overlays
 twitch.tv##div[aria-label="Chat Happening Now Overlay"]
 twitch.tv##div.extensions-video-overlay-size-container
 twitch.tv##div.Layout-sc-1xcs6mc-0.iZiJYe
 ext-twitch.tv##div[class^="ErrorItem_error__"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
+
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
+
 ! block twitch stories
 twitch.tv##.dKitkM.Layout-sc-1xcs6mc-0
+
+
 ! wikipedia
 ! set appearance
-
 en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
 de.wikipedia.org##+js(trusted-set-cookie, dewikimwclientpreferences, skin-theme-clientpref-os%2Cvector-feature-custom-font-size-clientpref-1%2Cvector-feature-limited-width-clientpref-0%2Cvector-feature-appearance-pinned-clientpref-0, , /, reload, 1)
-! willhaben
 
+
+! willhaben
 ! render website on whole screen
 willhaben.at##.fHRruJ:matches-media(screen and (min-width: 970px), print):style( grid-template-columns: 100% 0% !important; )
 willhaben.at###apn-large-skyscraper
+
+
 ! youtube
 ! block video recommendations
 youtube.com###secondary
 youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
+
 ! block endscreen
 youtube.com##.ytp-endscreen-content
+
 ! cleanup video
 youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
 youtube.com###comments
@@ -120,12 +155,17 @@ youtube.com###chat-container
 youtube.com###teaser-carousel
 youtube.com###panels-full-bleed-container
 youtube.com###columns:style(padding: unset !important;)
+
 ! block youtube shopping
 youtube.com##.ytp-suggested-action
 youtube.com##ytd-merch-shelf-renderer
+
 ! cleanup subscribtions
 youtube.com###newness-dot
 youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
+
 ! remove channel trailer
 youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
 youtube.com##ytd-channel-video-player-renderer
+
+
