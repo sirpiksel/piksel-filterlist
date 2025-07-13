@@ -49,7 +49,7 @@ jobs:
           # --- Step 6: add to git
           git add "$f"
         done
-        git commit -m "format filters"
+        git diff --cached --quiet || git commit -m "format filters"
 
     - name: Make
       run: |
@@ -62,7 +62,7 @@ jobs:
         sed -i 's/^[ \t]*//;s/[ \t]*$//' out/list.txt
         git config user.name "Release CI Bot"
         git add out/list.txt
-        git commit -m "release filterlist after: \"$(cat CHANGE)\""
+        git diff --cached --quiet || git commit -m "release filterlist after: \"$(cat CHANGE)\""
 
     - name: Push changes
       run: |
