@@ -23,7 +23,6 @@ jobs:
         git config user.name "Formatting CI Bot"
         for f in src/*; do
           [ -f "$f" ] || continue
-
           # --- Step 0: create tmp file
           mv "$f" "$f".tmp
 
@@ -49,15 +48,16 @@ jobs:
 
           # --- Step 6: add to git
           git add "$f"
-
-          # --- Step 7: add spacing
-          printf '\n\n' >> "$f"
         done
         git commit -m "format filters"
 
     - name: Make
       run: |
         printf "! Title: piksels filterlist\n! Expires: 14 days\n! Last modified: $(date -R)\n! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE\n\n" > out/list.txt
+        for f in src/*; do
+          [ -f "$f" ] || continue
+          printf '\n\n' >> "$f"
+        done
         cat src/* >> out/list.txt
         sed -i 's/^[ \t]*//;s/[ \t]*$//' out/list.txt
         git config user.name "Release CI Bot"
