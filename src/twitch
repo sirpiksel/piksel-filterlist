@@ -26,7 +26,11 @@ twitch.tv##div.extensions-video-overlay-size-container
 twitch.tv##div.Layout-sc-1xcs6mc-0.iZiJYe
 ext-twitch.tv##div[class^="ErrorItem_error__"]
 ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
-
+! cleanup below player
+!! block get bits
+twitch.tv##.gWaIYG.Layout-sc-1xcs6mc-0
+!! block gift sub
+twitch.tv##.gmbpwB.Layout-sc-1xcs6mc-0
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
 
