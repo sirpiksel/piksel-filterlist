@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sun, 17 Aug 2025 18:18:30 +0000
+! Last modified: Fri, 22 Aug 2025 14:42:17 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -138,7 +138,7 @@ de.wikipedia.org##+js(trusted-set-cookie, dewikimwclientpreferences, skin-theme-
 
 ! willhaben
 ! render website on whole screen
-willhaben.at##.fHRruJ:matches-media(screen and (min-width: 970px), print):style( grid-template-columns: 100% 0% !important; )
+willhaben.at##.elDsVH:matches-media(screen and (min-width: 970px), print):style( grid-template-columns: 100% 0% !important; )
 willhaben.at###apn-large-skyscraper
 
 
