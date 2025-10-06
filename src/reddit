@@ -4,6 +4,7 @@ reddit.com##reddit-recent-pages
 reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
 reddit.com##nav[aria-label="Reddit resources"]
+reddit.com##left-nav-top-section
 
 ! remove separators
 reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
