@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Mon, 06 Oct 2025 11:54:40 +0000
+! Last modified: Mon, 06 Oct 2025 11:59:46 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -71,7 +71,7 @@ cloud.oracle.com###redwood-banner
 
 
 ! reddit.com
-! remove left-nav bloat
+! remove all sidebar bloat except custom feeds
 reddit.com##reddit-recent-pages
 reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
@@ -79,8 +79,7 @@ reddit.com##nav[aria-label="Reddit resources"]
 reddit.com##left-nav-top-section
 
 ! remove separators
-reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
-reddit.com###left-sidebar > nav > hr:nth-last-of-type(2)
+reddit.com###left-sidebar > nav > hr
 
 ! remove navigation Ad-Button
 reddit.com##span[data-part="advertise"]
