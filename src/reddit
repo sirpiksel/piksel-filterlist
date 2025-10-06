@@ -1,5 +1,5 @@
 ! reddit.com
-! remove left-nav bloat
+! remove all sidebar bloat except custom feeds
 reddit.com##reddit-recent-pages
 reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
@@ -7,8 +7,7 @@ reddit.com##nav[aria-label="Reddit resources"]
 reddit.com##left-nav-top-section
 
 ! remove separators
-reddit.com###left-sidebar > nav > hr:nth-last-of-type(1)
-reddit.com###left-sidebar > nav > hr:nth-last-of-type(2)
+reddit.com###left-sidebar > nav > hr
 
 ! remove navigation Ad-Button
 reddit.com##span[data-part="advertise"]
