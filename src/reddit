@@ -5,6 +5,7 @@ reddit.com##left-nav-recent-communities
 reddit.com##faceplate-expandable-section-helper:nth-of-type(2)
 reddit.com##nav[aria-label="Reddit resources"]
 reddit.com##left-nav-top-section
+reddit.com##[noun="games_drawer"]
 
 ! remove separators
 reddit.com###left-sidebar > nav > hr
