@@ -11,6 +11,7 @@ youtube.com###primary:style(max-width: unset !important; padding: 0 !important; 
 youtube.com###comments
 youtube.com###chat-container
 youtube.com###teaser-carousel
+youtube.com###expandable-metadata
 youtube.com###panels-full-bleed-container
 youtube.com###columns:style(padding: unset !important;)
 
