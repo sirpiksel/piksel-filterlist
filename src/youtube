@@ -3,8 +3,9 @@
 youtube.com###secondary
 youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
 
-! block endscreen
-youtube.com##.ytp-endscreen-content
+! cleanup player
+youtube.com##div.ytp-fullscreen-quick-actions
+youtube.com##div.ytp-fullscreen-grid
 
 ! cleanup video
 youtube.com###primary:style(max-width: unset !important; padding: 0 !important; margin: 0 24px !important;)
