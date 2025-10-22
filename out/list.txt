@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Wed, 22 Oct 2025 16:07:23 +0000
+! Last modified: Wed, 22 Oct 2025 16:18:42 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -149,8 +149,9 @@ youtube.com###secondary
 youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
 
 ! cleanup player
-youtube.com##div.ytp-fullscreen-quick-actions
-youtube.com##div.ytp-fullscreen-grid
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-fullscreen-quick-actions
+youtube.com##.ytp-fullscreen-grid
 youtube.com##.html5-video-player:remove-class(ytp-fullscreen-grid-active)
 youtube.com##.html5-video-player:remove-class(ytp-fullscreen-grid-peeking)
 youtube.com##.html5-video-player:remove-class(ytp-grid-scrolling)
