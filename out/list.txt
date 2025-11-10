@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Wed, 22 Oct 2025 16:18:42 +0000
+! Last modified: Mon, 10 Nov 2025 17:21:07 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -178,5 +178,8 @@ youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
 ! remove channel trailer
 youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
 youtube.com##ytd-channel-video-player-renderer
+
+! cleanup search results
+youtube.com##grid-shelf-view-model
 
 
