@@ -44,7 +44,7 @@ youtube.com##ytd-guide-section-renderer:nth-of-type(6)
 ! cleanup search results
 !! block shorts in search results
 youtube.com##.ytGridShelfViewModelHost
-!! block posts in search results
-youtube.com##ytd-shelf-renderer
+!! block miscellaneous in search results
+youtube.com##ytd-two-column-search-results-renderer > #primary > ytd-section-list-renderer > #contents > ytd-item-section-renderer > #contents > ytd-shelf-renderer
 !! block search suggestions in search results
 youtube.com##ytd-horizontal-card-list-renderer
