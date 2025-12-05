@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Mon, 10 Nov 2025 17:21:07 +0000
+! Last modified: Fri, 05 Dec 2025 05:49:53 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -180,6 +180,9 @@ youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > vide
 youtube.com##ytd-channel-video-player-renderer
 
 ! cleanup search results
-youtube.com##grid-shelf-view-model
+!! block shorts in search results
+youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope
+!! block search suggestions in search results
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 
 
