@@ -36,6 +36,8 @@ youtube.com##ytd-channel-video-player-renderer
 
 ! cleanup search results
 !! block shorts in search results
-youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope
+youtube.com##.ytGridShelfViewModelHost
+!! block posts in search results
+youtube.com##ytd-shelf-renderer
 !! block search suggestions in search results
-youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+youtube.com##ytd-horizontal-card-list-renderer
