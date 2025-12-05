@@ -35,4 +35,7 @@ youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > vide
 youtube.com##ytd-channel-video-player-renderer
 
 ! cleanup search results
-youtube.com##grid-shelf-view-model
+!! block shorts in search results
+youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope
+!! block search suggestions in search results
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
