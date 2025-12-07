@@ -15,3 +15,9 @@ reddit.com##span[data-part="advertise"]
 
 ! remove navigation r/Field-Button
 reddit.com##span[data-part="a1"]
+
+! block sidebar notification dot
+reddit.com##div[data-feature="devvit-left-nav-badge"]
+
+! block open in app
+reddit.com##.ps-xs.s\:block.hidden
