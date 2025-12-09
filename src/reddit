@@ -21,3 +21,7 @@ reddit.com##div[data-feature="devvit-left-nav-badge"]
 
 ! block open in app
 reddit.com##.ps-xs.s\:block.hidden
+
+! block reddit AI in searchbar
+reddit.com##faceplate-search-input > div[slot="trailingContent"]
+reddit.com##label > div > hr.trailing-divider
