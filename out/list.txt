@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sun, 07 Dec 2025 03:45:27 +0000
+! Last modified: Tue, 09 Dec 2025 04:01:55 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -93,6 +93,10 @@ reddit.com##div[data-feature="devvit-left-nav-badge"]
 
 ! block open in app
 reddit.com##.ps-xs.s\:block.hidden
+
+! block reddit AI in searchbar
+reddit.com##faceplate-search-input > div[slot="trailingContent"]
+reddit.com##label > div > hr.trailing-divider
 
 
 ! twitch
