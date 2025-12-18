@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Thu, 18 Dec 2025 06:38:23 +0000
+! Last modified: Thu, 18 Dec 2025 16:34:47 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -99,7 +99,7 @@ reddit.com##faceplate-search-input > div[slot="trailingContent"]
 reddit.com##label > div > hr.trailing-divider
 
 ! block reddit AI in search results
-reddit.com##.relative.xs\:rounded-4.hover\:bg-neutral-background-hover.search-answers-preview-section
+reddit.com##.lg\:px-0.sm\:px-md.xs\:px-0.mx-auto.min-h-\[calc\(100vh-var\(--shreddit-header-height\)-var\(--page-y-padding\)\)\].bg-neutral-background > search-telemetry-tracker:nth-of-type(1)
 
 
 ! twitch
