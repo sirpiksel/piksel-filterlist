@@ -32,6 +32,8 @@ ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 twitch.tv##.gWaIYG.Layout-sc-1xcs6mc-0
 !! block gift sub
 twitch.tv##.gmbpwB.Layout-sc-1xcs6mc-0
+!! block Combo Modal
+twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
 
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
