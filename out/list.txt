@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Fri, 16 Jan 2026 17:26:40 +0000
+! Last modified: Thu, 22 Jan 2026 12:45:59 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -25,10 +25,10 @@ instagram.com##.xh8yej3.x10l6tqk.xf7dkkf.x1l90r2v.xv54qhq.xexx8yu.x5yr21d.xdt5yt
 instagram.com##._a9za._a9z6
 
 ! cleanup sidebar
-!! remove explore
-instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(3)
 !! remove reels
-instagram.com##.xx6bls6.x1xgvd2v > .x1iyjqo2 > :nth-of-type(4)
+instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:nth-of-type(2)
+!! remove explore
+instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:nth-of-type(5)
 !! remove Meta Ad
 instagram.com##.xl5mz7h.xhuyl8g > :nth-of-type(2)
 
