@@ -1,6 +1,7 @@
 ! youtube
 ! block video recommendations
 youtube.com###secondary
+youtube.com##ytd-watch-next-secondary-results-renderer
 youtube.com##+js(trusted-set-cookie, wide, 1, , /, reload, 1)
 
 ! cleanup player
