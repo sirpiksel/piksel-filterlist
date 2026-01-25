@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sun, 25 Jan 2026 03:20:56 +0000
+! Last modified: Sun, 25 Jan 2026 03:36:04 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -31,6 +31,8 @@ instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:nth-of-type(2)
 instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:nth-of-type(5)
 !! remove Meta Ad
 instagram.com##.xl5mz7h.xhuyl8g > :nth-of-type(2)
+!! fix sidebar
+instagram.com##.xseo6mj:style(margin-top: 72px !important)
 
 ! block chat bubble
 instagram.com##.xixxii4.x145d82y.x3h4tne
