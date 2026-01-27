@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Mon, 26 Jan 2026 15:40:00 +0000
+! Last modified: Tue, 27 Jan 2026 16:11:45 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -34,8 +34,9 @@ instagram.com##.xl5mz7h.xhuyl8g > :nth-of-type(2)
 !! fix sidebar
 instagram.com##.xseo6mj:style(margin-top: 72px !important)
 
-! block chat bubble
+! remove popup chat
 instagram.com##.xixxii4.x145d82y.x3h4tne
+instagram.com##[data-pagelet="IGDChatTabsRootContent"]
 
 ! remove notes
 !! above messages list
