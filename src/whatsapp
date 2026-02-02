@@ -1,5 +1,6 @@
 ! whatsapp
 ! remove notification reminder
 web.whatsapp.com##.xdt5ytf.x2lah0s
+
 ! remove meta ai button
 web.whatsapp.com##section > div > button:nth-child(3)
