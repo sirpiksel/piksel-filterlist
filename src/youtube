@@ -30,14 +30,11 @@ youtube.com##ytd-merch-shelf-renderer
 ! fix subscriptions
 !! remove notification dot
 youtube.com###newness-dot
-
 !! construct list view
 youtube.com###contents:style(--ytd-rich-grid-items-per-row: 1)
-
 !! block shorts and fix layout
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
-
 !! better vertical list
 youtube.com###content.ytd-rich-item-renderer>.lockup.ytd-rich-item-renderer:style(width: 25vw !important)
 
