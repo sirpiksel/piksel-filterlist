@@ -27,9 +27,19 @@ youtube.com###columns:style(padding: unset !important;)
 youtube.com##.ytp-suggested-action
 youtube.com##ytd-merch-shelf-renderer
 
-! cleanup subscribtions
+! fix subscriptions
+!! remove notification dot
 youtube.com###newness-dot
-youtube.com##.ytd-item-section-renderer > .ytd-reel-shelf-renderer
+
+!! construct list view
+youtube.com###contents:style(--ytd-rich-grid-items-per-row: 1)
+
+!! block shorts and fix layout
+youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
+youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
+
+!! better vertical list
+youtube.com###content.ytd-rich-item-renderer>.lockup.ytd-rich-item-renderer:style(width: 25vw !important)
 
 ! remove channel trailer
 youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
