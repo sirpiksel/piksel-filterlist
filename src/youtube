@@ -61,15 +61,3 @@ youtube.com##.ytGridShelfViewModelHost
 youtube.com##ytd-two-column-search-results-renderer > #primary > ytd-section-list-renderer > #contents > ytd-item-section-renderer > #contents > ytd-shelf-renderer
 !! block search suggestions in search results
 youtube.com##ytd-horizontal-card-list-renderer
-
-
-
-
-
-
-
-
-
-
-
-
