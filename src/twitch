@@ -1,8 +1,11 @@
 ! twitch
 ! cleanup topnav
-twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
-twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(5)
-twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
+!! block left
+twitch.tv##.top-nav__menu > div:nth-child(1) > div > div.pbocV > div:nth-child(3)
+!! block right
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(2)
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(5)
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(6)
 
 ! block sidenav
 twitch.tv##.side-nav
