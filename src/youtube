@@ -30,13 +30,18 @@ youtube.com##ytd-merch-shelf-renderer
 ! fix subscriptions
 !! remove notification dot
 youtube.com###newness-dot
-!! construct list view
-youtube.com###contents:style(--ytd-rich-grid-items-per-row: 1)
 !! block shorts and fix layout
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
-!! better vertical list
-youtube.com###content.ytd-rich-item-renderer>.lockup.ytd-rich-item-renderer:style(width: 25vw !important)
+!! construct list view
+youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]):style(--ytd-rich-grid-items-per-row: 1)
+!! format items horizontally
+youtube.com##.yt-lockup-view-model:style(flex-direction: row !important; min-width: unset !important; min-height: 0 !important;)
+youtube.com##.yt-lockup-view-model--vertical.yt-lockup-view-model--rich-grid-legacy-margin .yt-lockup-view-model__content-image:style(padding-bottom: 0 !important; padding-right: 12px !important;)
+youtube.com##.yt-lockup-view-model__metadata:style(padding-bottom: 0 !important; padding-left: 12px !important; padding-right: 0 !important; padding-top: 12px !important;)
+!! force thumbnail size
+youtube.com##.ytThumbnailViewModelAspectRatio16By9:remove-class(ytThumbnailViewModelAspectRatio16By9)
+youtube.com##.ytThumbnailViewModelLarge:style(height: 9vw !important; width: 16vw !important;)
 
 ! remove channel trailer
 youtube.com##+js(trusted-set-attr, #c4-player > div.html5-video-container > video, src, )
@@ -56,3 +61,15 @@ youtube.com##.ytGridShelfViewModelHost
 youtube.com##ytd-two-column-search-results-renderer > #primary > ytd-section-list-renderer > #contents > ytd-item-section-renderer > #contents > ytd-shelf-renderer
 !! block search suggestions in search results
 youtube.com##ytd-horizontal-card-list-renderer
+
+
+
+
+
+
+
+
+
+
+
+
