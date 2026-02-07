@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Thu, 05 Feb 2026 13:01:58 +0000
+! Last modified: Sat, 07 Feb 2026 00:41:49 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -116,9 +116,12 @@ reddit.com###reddit-trending-searches-partial-container
 
 ! twitch
 ! cleanup topnav
-twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(2)
-twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(5)
-twitch.tv##.top-nav__menu > div:nth-last-child(1) > div:nth-child(6)
+!! block left
+twitch.tv##.top-nav__menu > div:nth-child(1) > div > div.pbocV > div:nth-child(3)
+!! block right
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(2)
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(5)
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(6)
 
 ! block sidenav
 twitch.tv##.side-nav
