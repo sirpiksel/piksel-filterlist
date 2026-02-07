@@ -35,6 +35,7 @@ youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
 !! construct list view
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]):style(--ytd-rich-grid-items-per-row: 1)
+youtube.com###content.ytd-rich-item-renderer>.lockup.ytd-rich-item-renderer:style(width: 55vw !important)
 !! format items horizontally
 youtube.com##.yt-lockup-view-model:style(flex-direction: row !important; min-width: unset !important; min-height: 0 !important;)
 youtube.com##.yt-lockup-view-model--vertical.yt-lockup-view-model--rich-grid-legacy-margin .yt-lockup-view-model__content-image:style(padding-bottom: 0 !important; padding-right: 12px !important;)
