@@ -1,3 +1,7 @@
 ! motorsport
 ! make pictures usable
 motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
+
+! block cookie banner
+de.motorsport.com##[id^="sp_message_container_"]
+de.motorsport.com##html.sp-message-open:remove-class(sp-message-open)
