@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sat, 07 Feb 2026 02:57:03 +0000
+! Last modified: Fri, 20 Feb 2026 01:38:33 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -72,6 +72,10 @@ minecraft.wiki##+js(trusted-set-cookie, theme, dark, , /, reload, 1)
 ! motorsport
 ! make pictures usable
 motorsport.com##section[data-widget="compare-images"] > *:style(animation: none !important;)
+
+! block cookie banner
+de.motorsport.com##[id^="sp_message_container_"]
+de.motorsport.com##html.sp-message-open:remove-class(sp-message-open)
 
 
 ! oracle oci
