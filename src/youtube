@@ -35,6 +35,7 @@ youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
 !! construct list view
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]):style(--ytd-rich-grid-items-per-row: 1)
+
 ! #primary > ytd-rich-grid-renderer > #contents
 youtube.com###content.ytd-rich-item-renderer > .lockup.ytd-rich-item-renderer:style(width: 55vw !important)
 !! format items horizontally
