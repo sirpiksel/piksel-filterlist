@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Thu, 02 Apr 2026 22:15:09 +0000
+! Last modified: Thu, 09 Apr 2026 23:45:14 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -227,13 +227,10 @@ youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-section-renderer
 youtube.com##ytd-rich-grid-renderer > #contents > ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
 !! construct list view
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]):style(--ytd-rich-grid-items-per-row: 1)
-
-! #primary > ytd-rich-grid-renderer > #contents
 youtube.com###content.ytd-rich-item-renderer > .lockup.ytd-rich-item-renderer:style(width: 55vw !important)
 !! format items horizontally
-youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) div.yt-lockup-view-model:style(flex-direction: row !important; min-width: unset !important; min-height: 0 !important;)
-youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) div.yt-lockup-view-model--vertical.yt-lockup-view-model--rich-grid-legacy-margin > a.yt-lockup-view-model__content-image:style(padding-bottom: 0 !important; padding-right: 12px !important;)
-youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) div.yt-lockup-view-model__metadata:style(padding-bottom: 0 !important; padding-left: 12px !important; padding-right: 0 !important; padding-top: 12px !important;)
+youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) > div#content > yt-lockup-view-model > div:style(flex-direction: row !important;)
+youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) > div#content > yt-lockup-view-model > div > a:style(padding-bottom: 0 !important; padding-right: 12px !important;)
 !! force thumbnail size
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) yt-thumbnail-view-model.ytThumbnailViewModelAspectRatio16By9:remove-class(ytThumbnailViewModelAspectRatio16By9)
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) yt-thumbnail-view-model.ytThumbnailViewModelLarge:style(height: 9vw !important; width: 16vw !important;)
