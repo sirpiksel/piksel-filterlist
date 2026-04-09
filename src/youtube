@@ -39,6 +39,7 @@ youtube.com###content.ytd-rich-item-renderer > .lockup.ytd-rich-item-renderer:st
 !! format items horizontally
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) > div#content > yt-lockup-view-model > div:style(flex-direction: row !important;)
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) > div#content > yt-lockup-view-model > div > a:style(padding-bottom: 0 !important; padding-right: 12px !important;)
+youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) > div#content > yt-lockup-view-model > div > div.ytLockupViewModelMetadata:style(padding-bottom: 0 !important; padding-left: 12px !important; padding-right: 0 !important; padding-top: 12px !important;)
 !! force thumbnail size
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) yt-thumbnail-view-model.ytThumbnailViewModelAspectRatio16By9:remove-class(ytThumbnailViewModelAspectRatio16By9)
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid]:not([is-slim-grid no-gutter-margins]) yt-thumbnail-view-model.ytThumbnailViewModelLarge:style(height: 9vw !important; width: 16vw !important;)
