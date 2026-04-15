@@ -4,7 +4,6 @@ reddit.com##left-nav-top-section
 reddit.com###recent-communities-section
 reddit.com##nav[aria-label="Reddit resources"]
 reddit.com##[noun="games_drawer"]
-reddit.com##nav > faceplate-expandable-section-helper:nth-child(10) > details
 
 ! remove separators
 reddit.com###left-sidebar > nav > hr
