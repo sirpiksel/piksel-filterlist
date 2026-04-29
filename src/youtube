@@ -23,6 +23,9 @@ youtube.com###expandable-metadata
 youtube.com###panels-full-bleed-container
 youtube.com###columns:style(padding: unset !important;)
 
+! remove 'Auto-dubbed' badge
+youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata.style-scope
+
 ! block youtube shopping
 youtube.com##.ytp-suggested-action
 youtube.com##ytd-merch-shelf-renderer
