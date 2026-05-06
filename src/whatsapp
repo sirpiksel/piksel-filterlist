@@ -1,6 +1,9 @@
 ! whatsapp
 ! remove notification reminder
-web.whatsapp.com##.xdt5ytf.x2lah0s
+web.whatsapp.com##div#side > span[data-testid="chat-butterbar"]
 
 ! remove meta ai button
-web.whatsapp.com##section > div > button:nth-child(3)
+!! in start menu
+web.whatsapp.com##button[data-testid="meta-ai-tile"]
+!! in message dropdown
+web.whatsapp.com##button[aria-label="Ask Meta AI"]
