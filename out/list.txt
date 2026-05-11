@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Wed, 06 May 2026 18:41:31 +0000
+! Last modified: Mon, 11 May 2026 14:15:47 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -223,9 +223,12 @@ youtube.com###columns:style(padding: unset !important;)
 ! remove 'Auto-dubbed' badge
 youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata.style-scope
 
-! block youtube shopping
+! remove youtube shopping
 youtube.com##.ytp-suggested-action
 youtube.com##ytd-merch-shelf-renderer
+
+! remove accidental popups
+youtube.com##ytd-popup-container.style-scope.ytd-app
 
 ! fix subscriptions
 !! remove notification dot
