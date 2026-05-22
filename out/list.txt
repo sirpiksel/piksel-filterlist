@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Mon, 11 May 2026 14:15:47 +0000
+! Last modified: Fri, 22 May 2026 14:33:54 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -130,6 +130,7 @@ twitch.tv##.top-nav__menu > div:nth-child(1) > div > div.pbocV > div:nth-child(3
 twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(2)
 twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(5)
 twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(6)
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(7)
 
 ! block sidenav
 twitch.tv##.side-nav
