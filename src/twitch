@@ -6,6 +6,7 @@ twitch.tv##.top-nav__menu > div:nth-child(1) > div > div.pbocV > div:nth-child(3
 twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(2)
 twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(5)
 twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(6)
+twitch.tv##.top-nav__menu > div:nth-child(3) > div:nth-child(7)
 
 ! block sidenav
 twitch.tv##.side-nav
