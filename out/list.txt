@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sun, 07 Jun 2026 12:24:56 +0000
+! Last modified: Sun, 07 Jun 2026 12:33:32 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -10,7 +10,7 @@ wiki.archlinux.org##+js(trusted-set-cookie, archwikimwclientpreferences, skin-th
 
 ! duck.ai
 ! remove feature banner
-duck.ai##div.e8hNVcv2hNmgdRTcd0UO
+duck.ai##div.e8hNVcv2hNmgdRTcd0UO.RJhEAc80sTzdJYZxcRp5
 
 
 ! fandom.com
