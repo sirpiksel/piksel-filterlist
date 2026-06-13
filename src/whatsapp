@@ -4,6 +4,6 @@ web.whatsapp.com##div#side > span[data-testid="chat-butterbar"]
 
 ! remove meta ai button
 !! in start menu
-web.whatsapp.com##button[data-testid="meta-ai-tile"]
+web.whatsapp.com##div[data-testid="intro-panel-empty-state-action-tile-group"] > div:nth-child(3)
 !! in message dropdown
 web.whatsapp.com##button[aria-label="Ask Meta AI"]
