@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sat, 13 Jun 2026 13:19:34 +0000
+! Last modified: Sat, 13 Jun 2026 20:54:24 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -188,7 +188,7 @@ web.whatsapp.com##div#side > span[data-testid="chat-butterbar"]
 
 ! remove meta ai button
 !! in start menu
-web.whatsapp.com##button[data-testid="meta-ai-tile"]
+web.whatsapp.com##div[data-testid="intro-panel-empty-state-action-tile-group"] > div:nth-child(3)
 !! in message dropdown
 web.whatsapp.com##button[aria-label="Ask Meta AI"]
 
