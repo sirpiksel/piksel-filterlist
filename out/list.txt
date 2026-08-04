@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Tue, 04 Aug 2026 21:20:39 +0000
+! Last modified: Tue, 04 Aug 2026 21:25:05 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -149,14 +149,7 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 
 ! cleanup player
 !! block clip button
-twitch.tv##.Layout-sc-1xcs6mc-0.bDlkVb
-!! block top subscription panel
-twitch.tv##.theatre-social-panel
-!! block prime benefits
-twitch.tv##.extensions-dock__layout
-!twitch.tv##.Layout-sc-1xcs6mc-0.iyObTS
-!! block twitch stories
-twitch.tv##.Layout-sc-1xcs6mc-0.lcFJxY
+twitch.tv##div.player-controls__right-control-group > div:nth-child(1)
 !! block player overlays
 twitch.tv##div[aria-label="Chat Happening Now Overlay"]
 twitch.tv##div.extensions-video-overlay-size-container
