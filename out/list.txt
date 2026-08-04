@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Sun, 14 Jun 2026 19:17:25 +0000
+! Last modified: Tue, 04 Aug 2026 21:15:50 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -179,7 +179,7 @@ ext-twitch.tv##div.prime-extension-root
 twitch.tv##.dKitkM.Layout-sc-1xcs6mc-0
 
 ! block Terms of Service Update
-twitch.tv##.iSpCDu.Layout-sc-1xcs6mc-0
+twitch.tv##article.Layout-sc-1xcs6mc-0.eZQsrE
 
 
 ! whatsapp
