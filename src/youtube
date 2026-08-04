@@ -31,7 +31,8 @@ youtube.com##.ytp-suggested-action
 youtube.com##ytd-merch-shelf-renderer
 
 ! remove accidental popups
-youtube.com##ytd-popup-container.style-scope.ytd-app
+! TODO: find example to differentiate from general popups.
+!youtube.com##ytd-popup-container.style-scope.ytd-app
 
 ! fix subscriptions
 !! remove notification dot
