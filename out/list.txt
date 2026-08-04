@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Tue, 04 Aug 2026 21:32:35 +0000
+! Last modified: Tue, 04 Aug 2026 21:34:50 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -229,8 +229,7 @@ youtube.com##.ytp-suggested-action
 youtube.com##ytd-merch-shelf-renderer
 
 ! remove accidental popups
-
-! TODO: find example to differentiate from general popups.
+!! TODO: find example to differentiate from general popups.
 !youtube.com##ytd-popup-container.style-scope.ytd-app
 
 ! fix subscriptions
