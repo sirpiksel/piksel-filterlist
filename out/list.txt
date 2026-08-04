@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Tue, 04 Aug 2026 21:15:50 +0000
+! Last modified: Tue, 04 Aug 2026 21:20:39 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -166,11 +166,9 @@ ext-twitch.tv##div[class^="VideoOverlay_uiContainer__"]
 
 ! cleanup below player
 !! block get bits
-twitch.tv##.gWaIYG.Layout-sc-1xcs6mc-0
-!! block gift sub
-twitch.tv##.gmbpwB.Layout-sc-1xcs6mc-0
-!! block Combo Modal
-twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
+twitch.tv##div[data-target="channel-header-right"] > div:nth-child(2)
+!! block gift & sub
+twitch.tv##div[data-target="channel-header-right"] > div:nth-child(3)
 
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
