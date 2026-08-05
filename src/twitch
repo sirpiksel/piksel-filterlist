@@ -19,6 +19,8 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 twitch.tv##div.player-controls__right-control-group > div:nth-child(1)
 !! block player overlays
 twitch.tv##div.extensions-dock__layout
+!! block theater mode gift & sub
+twitch.tv##div.theatre-social-panel
 
 ! cleanup below player
 !! block get bits
