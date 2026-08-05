@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Wed, 05 Aug 2026 16:27:42 +0000
+! Last modified: Wed, 05 Aug 2026 20:00:28 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -149,7 +149,7 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 
 ! cleanup player
 !! block clip button
-twitch.tv##div.player-controls__right-control-group > div:nth-child(1)
+twitch.tv##button[aria-label^="Clip"]
 !! block player overlays
 twitch.tv##div.extensions-dock__layout
 !! block theater mode gift & sub
