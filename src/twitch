@@ -16,7 +16,7 @@ twitch.tv##.Layout-sc-1xcs6mc-0.chat-line__status
 
 ! cleanup player
 !! block clip button
-twitch.tv##div.player-controls__right-control-group > div:nth-child(1)
+twitch.tv##button[aria-label^="Clip"]
 !! block player overlays
 twitch.tv##div.extensions-dock__layout
 !! block theater mode gift & sub
