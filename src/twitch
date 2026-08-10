@@ -31,8 +31,9 @@ twitch.tv##div[data-target="channel-header-right"] > div:nth-child(3)
 ! block prime ads
 ext-twitch.tv##div.prime-extension-root
 
-! block twitch stories
-twitch.tv##.dKitkM.Layout-sc-1xcs6mc-0
+! cleanup following screen
+!! block stories
+twitch.tv##div.common-centered-column > div > div.iXVlMj
 
 ! block Terms of Service Update
 twitch.tv##article.Layout-sc-1xcs6mc-0.eZQsrE
