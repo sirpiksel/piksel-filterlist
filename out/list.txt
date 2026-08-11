@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Tue, 11 Aug 2026 19:15:12 +0000
+! Last modified: Tue, 11 Aug 2026 19:17:10 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -175,6 +175,9 @@ twitch.tv##article.Layout-sc-1xcs6mc-0.eZQsrE
 ! whatsapp
 ! remove notification reminder
 web.whatsapp.com##div#side > span[data-testid="chat-butterbar"]
+
+! remove title card
+web.whatsapp.com##div[data-testid="intro_panel_v2_title_card"]
 
 ! remove meta ai button
 !! in start menu
