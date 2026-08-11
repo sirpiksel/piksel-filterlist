@@ -2,6 +2,9 @@
 ! remove notification reminder
 web.whatsapp.com##div#side > span[data-testid="chat-butterbar"]
 
+! remove title card
+web.whatsapp.com##div[data-testid="intro_panel_v2_title_card"]
+
 ! remove meta ai button
 !! in start menu
 web.whatsapp.com##div[data-testid="intro-panel-empty-state-action-tile-group"] > div:nth-child(4)
