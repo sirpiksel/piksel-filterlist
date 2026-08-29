@@ -37,3 +37,6 @@ twitch.tv##div.common-centered-column > div > div.iXVlMj
 
 ! block Terms of Service Update
 twitch.tv##article.Layout-sc-1xcs6mc-0.eZQsrE
+
+! block PokémonXP & 2026 Worlds
+twitch.tv##div.Layout-sc-1xcs6mc-0.khbzTe > div:nth-child(3)
