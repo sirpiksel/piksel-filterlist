@@ -1,6 +1,6 @@
 ! Title: piksels filterlist
 ! Expires: 14 days
-! Last modified: Tue, 01 Sep 2026 17:34:43 +0000
+! Last modified: Thu, 17 Sep 2026 06:47:15 +0000
 ! License: https://github.com/sirpiksel/piksel-filterlist/blob/main/LICENSE
 
 ! archwiki
@@ -184,6 +184,9 @@ web.whatsapp.com##div[data-testid="intro_panel_v2_title_card"]
 web.whatsapp.com##div[data-testid="intro-panel-empty-state-action-tile-group"] > div:nth-child(4)
 !! in message dropdown
 web.whatsapp.com##button[aria-label="Ask Meta AI"]
+!! in sidebar
+web.whatsapp.com##div[data-testid="navbar-primary-section"] > div > div:last-of-type
+web.whatsapp.com##div[data-testid="navbar-primary-section"] > div > hr:last-of-type
 
 
 ! wikipedia
