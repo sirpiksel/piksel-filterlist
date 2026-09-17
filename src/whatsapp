@@ -10,3 +10,6 @@ web.whatsapp.com##div[data-testid="intro_panel_v2_title_card"]
 web.whatsapp.com##div[data-testid="intro-panel-empty-state-action-tile-group"] > div:nth-child(4)
 !! in message dropdown
 web.whatsapp.com##button[aria-label="Ask Meta AI"]
+!! in sidebar
+web.whatsapp.com##div[data-testid="navbar-primary-section"] > div > div:last-of-type
+web.whatsapp.com##div[data-testid="navbar-primary-section"] > div > hr:last-of-type
